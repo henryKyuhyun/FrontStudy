@@ -1,0 +1,23 @@
+/* --------------------- */
+/*  General Styles */
+/* ---------------------- */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ body {
+  color: #333;
+  font-size: 1.6rem;
+ }
+
+ /* --------------------- */
+/* Main Styles */
+/* ---------------------- */
+

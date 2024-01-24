@@ -1,0 +1,17 @@
+
+body {
+  background-color: rgba(128, 128, 128, 0.543);
+}
+span {
+  font-weight: 900;
+  font-size: 5rem;
+  color: white;
+  font-family: sans-serif;
+}
+
+input {
+  width: 50%;
+  border-radius: 200px;
+  cursor: pointer;
+}
+

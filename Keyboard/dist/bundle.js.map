@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":"mBAIAA,QAAQC,IAAIC,E","sources":["webpack://keyboard/./src/js/index.js"],"sourcesContent":["import \"../css/style.css\";\nlet a = 1;\n\nlet b = 2;\nconsole.log(a + b);\n"],"names":["console","log","a"],"sourceRoot":""}

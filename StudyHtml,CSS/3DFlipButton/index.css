@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000c4;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  perspective: 1000px;   /*원근감을 주는거다 */
+}  /*container 요소가 정중앙에 위치 */
+
+.flip-btn { 
+  width: 200px;
+  height: 100px;
+  color: #ffe;
+  text-align: center;
+  line-height: 100px;
+  transform-style: preserve-3d; 
+  transition: .5s;
+  cursor: pointer;
+}
+/*  요소의 Height value and line-height value 같으면 수직 중앙 정렬이된다.  */
+/* 단 . 텍스트가 한줄일떄!!! */
+
+.flip-btn:hover{
+  transform: rotateX(-90deg);
+}
+
+.front {
+  background-color: rgb(218, 165, 31);
+  height: 100px;
+  transform: translateZ(50px);
+}
+
+.back {
+  background-color: rgb(175, 128, 8);
+  height: 100px;
+  transform: rotateX(90deg) translateZ(150px);
+}
+

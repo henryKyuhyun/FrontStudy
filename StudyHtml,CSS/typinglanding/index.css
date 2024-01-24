@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #4f44cb;
+}
+
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);   /* If don't use it , the content doesn't positioned proper center */
+  color: #ffffffe7;
+  text-align: center;
+}
+
+.fa {
+  font-size: 10rem;
+  margin-bottom: 10px;
+}
+
+.lg-text {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.sm-text{
+  font-size: 1.5rem;
+}
+
+#dynamic {
+  position: relative;
+
+  /* for ::after (cursor), if I don't use it the cursor not flexible*/
+  display: inline-block;    
+}
+
+/*  cursor */
+#dynamic::after {   
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -10px;
+  width: white;
+  width: 4px;
+  height: 100%;   /* p tag height*/
+  background-color: #ffe;
+   
+}
+
+#dynamic.active::after {
+  display: none;
+}

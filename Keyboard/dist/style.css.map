@@ -1,0 +1,1 @@
+{"version":3,"file":"style.css","mappings":"AAAA,IAGE,cAAe,CACf,YAAa,CAHb,YAAa,CACb,WAGF","sources":["webpack://keyboard/./src/css/style.css"],"sourcesContent":["div {\n  height: 100px;\n  width: 100px;\n  background: red;\n  color: orange;\n}\n"],"names":[],"sourceRoot":""}
